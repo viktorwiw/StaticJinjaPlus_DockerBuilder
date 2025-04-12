@@ -12,7 +12,7 @@
 Запустите контейнер
 
 ```
-docker run --rm -v ${pwd}/{TEMPLATES_PATH}:/app/templates -v ${pwd}/{BUILD_PATH}:/app/build wiwikin/static-jinja-plus:${TAG}
+docker run --rm -v $(pwd)/{TEMPLATES_PATH}:/app/templates -v $(pwd)/{BUILD_PATH}:/app/build wiwikin/static-jinja-plus:${TAG}
 ```
 
 ``${TEMPLATES_PATH}`` - путь к каталогу с вашими html-шаблонами
